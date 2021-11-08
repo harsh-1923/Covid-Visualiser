@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+
+:root {
+    --dark: #222831;
+    --grey: #393E46;
+    --main: #00ADB5;
+    --light:  #EEEEEE;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: var(--main);
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-logo{
+    padding: 10px;
+    color: white;
+}
+
+.brand-txt{
+    /* margin-right: 600px; */
+    padding-bottom: 5px;
+    /* font-size: larger; */
+    color: var(--light)
+}
+/* 
+.links{
+    margin-left: 800px;
+} */
+
+
+
+.country{
+    background-color: var(--light);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.country-input{
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: #ebe6e6;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+.duration-input{
+    outline: none;
+    border: none;
+    background-color: #ebe6e6;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+
+.search-btn{
+    margin: 10px;
+    background-color: #ebe6e6;
+    outline: none;
+    border: none;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-banner{
+    margin: 10px;
+    margin-right: 10px;;
+    margin-left: 30px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    /* position: absolute; */
+    /* translate-x: 50px; */
+    background-color: var(--main);
+
+}
+.main{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main-left{
+    border-radius: 10px;
+    /* margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px; */
+    margin: 10px;
+
+    padding-right: 20px;
+    width: 50%;
+    background-color: #ebe6e6e6;
+}
+
+.main-right{
+    height: 75vh;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+    background-color: #ebe6e6e6;
+}
+
+
+.left-top{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    /* height: 400x; */
+}
+
+.left-top-1{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--main);
+    border-radius: 10px;
+    width: 50%;
+}
+
+.left-top-2{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--main);
+    border-radius: 10px;
+    width: 50%;
+    max-height: 400px;
+    /* height: 50%; */
+    /* overflow-y: hidden; */
+
+}
+
+/* .myChart{
+    width: 100%;
+    height: 90%;
+} */
+
+
+.main-right{
+    overscroll-behavior-y: hidden;
+}
+
+
